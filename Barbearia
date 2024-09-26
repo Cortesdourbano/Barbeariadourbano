@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecte-se ao Wi-Fi da Barbearia Urbano</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #2C3E50;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 2px;
+            cursor: pointer;
+        }
+        .button-instagram {
+            background-color: #E1306C;
+        }
+        .button-google {
+            background-color: #DB4437;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vindo à Barbearia Urbano!</h1>
+    <p>Escolha uma das opções abaixo para acessar nosso Wi-Fi, seguir nosso Instagram e nos avaliar no Google.</p>
+
+    <a href="WIFI:T:WPA;S:NomeDaRedeWiFi;P:SenhaDaRede;;" class="button">Conectar ao Wi-Fi</a>
+    <br>
+    <a href="https://www.instagram.com/suainstagram" class="button button-instagram">Siga-nos no Instagram</a>
+    <br>
+    <a href="https://g.page/suaempresa/review" class="button button-google">Avalie-nos no Google</a>
+</body>
+</html>
